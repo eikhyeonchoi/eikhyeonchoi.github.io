@@ -36,6 +36,9 @@ $('.skill').hover(function(e) {
   
   },function(e) {
     $(e.target).addClass('invisible').removeClass('visible');
+    if($(this).hasClass('invisible')) {
+      $(this).removeClass('invisible');
+    }
 });
 
 

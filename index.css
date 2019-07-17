@@ -65,7 +65,7 @@
    top: 65%;
    height: 2px;
    width: 70px;
-   left: 50%;
+   left: 20%;
    margin: 0 auto;
    background: #00CC33;
 }
@@ -84,7 +84,7 @@
 .web-heading:after {
    position: absolute;
    content: "";
-   top: 60%;
+   top: 65%;
    height: 2px;
    width: 70px;
    left: 30%;
@@ -95,7 +95,7 @@
 .frame-heading:after {
    position: absolute;
    content: "";
-   top: 60%;
+   top: 65%;
    height: 2px;
    width: 70px;
    left: 30%;
@@ -107,7 +107,7 @@
 .db-heading:after {
    position: absolute;
    content: "";
-   top: 60%;
+   top: 65%;
    height: 2px;
    width: 70px;
    left: 0;
@@ -119,7 +119,7 @@
 .etc-heading:after {
    position: absolute;
    content: "";
-   top: 60%;
+   top: 65%;
    height: 2px;
    width: 40px;
    right: 40%;
