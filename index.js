@@ -6,7 +6,6 @@ $(document).ready(function() {
   
   $('#fullpage').fullpage({
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-    paddingTop: '70px',
     navigation: true,
     navigationPosition: "right",
     scrollOverflow: true,
@@ -32,6 +31,11 @@ $('.menu').click(function(e) {
 }) // click
 
 
-
+$('.skill').hover(function(e) {
+  $(e.target).children().first().addClass('visible').removeClass('invisible');
+  
+  },function(e) {
+    $(e.target).addClass('invisible').removeClass('visible');
+});
 
 
