@@ -13,7 +13,7 @@
 }
 
 #home {
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(image/home.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(image/home.jpg);
   background-repeat: no-repeat;
   background-position: 70% 100%;
   background-size: cover;
