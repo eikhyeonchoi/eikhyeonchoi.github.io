@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}	
+
 #header {
  width: 60%;
  background-color: black;
@@ -18,10 +22,6 @@
   background-position: 70% 100%;
   background-size: cover;
   color: white !important;
-}
-
-.noto-sans-kr {
-	font-family: 'Noto Sans KR', sans-serif;
 }
 
 .greeting-text {
